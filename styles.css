@@ -1,0 +1,79 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Roboto', sans-serif;
+}
+#wrapper{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url(backgroudimg.jpg);
+    opacity: 0.75;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    z-index: -2;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    /* gap:2px; */
+
+}
+.heading{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    padding:10px;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 20px auto;
+    box-shadow: 10px 10px 20px 0px rgb(94, 92, 89);
+    filter:brightness(1.3);
+    z-index: 2;
+    border-radius: 10px;
+}
+.quote_area{
+    display: flex;
+    background-color: azure;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    /* gap:10px; */
+    width:50%;
+    height:45%;
+    box-shadow: 0 0 20px 0px rgb(94, 92, 89);
+    border: 2px solid  rgb(0, 0, 0);
+    border-radius: 10px;
+    position: relative;
+
+}
+.author{
+    text-align: center;
+    color:darkred;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+.Quote{
+    padding: 30px;
+    margin: 10px auto;
+     text-align: center;
+     font-size: 1.3rem;
+     max-height: 60%;
+}
+.button{
+    text-align:center;
+    margin: 20px auto;
+    padding: 10px;
+    cursor: pointer;
+    align-self: center;
+    font-size: 1.3rem;
+    position: absolute;
+    top:200px;
+   
+}
